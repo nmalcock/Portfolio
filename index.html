@@ -24,6 +24,7 @@
                   <a class="nav-link" href="#about">About Me</a>
                   <a class="nav-link" href="#portfolio">Portfolio</a>
                   <a class="nav-link" href="#contact">Contact Me</a>
+                  <a class="nav-link" href="assets/ResumeSeptember2021.pdf" download>My Resume</a>
                 </div>
               </div>
             </div>
@@ -50,8 +51,6 @@
           <div class="col-6 mx-auto" id="aboutText">
             <p>My name is Nick Alcock and I am currently a software development student at Eleven Fifty Academy. Also, I have previously studied Informatics at Indiana University. With this program I am looking to learn new skills, polish old ones, and break into a career in technology! I want to continue to grow my network and learn more about what companies are looking for in IT professionals.</p>
           </div>
-
-          
         </section>
 
         <!-- Portfolio -->
@@ -107,16 +106,16 @@
                   </a>
                   <div class="card-body">
                     <h5 class="card-title">Blue Badge Web API</h5>
-                    <p class="card-text">Our final project of Blue Badge was to create an n-tiered web API in a team. Our group made a music application to help users keep track of their favorite artist, songs, albums, and playlists.</p>
+                    <p class="card-text">Our final project of Blue Badge was to create an n-tiered web API in a team. Our group made a music application to help users keep track of their favorite artists, songs, albums, and playlists.</p>
                   </div>
                 </div>
                 <div class="card" style="width: 30rem;">
-                  <a href="https://github.com/nmalcock">
+                  <a href="https://golftrack.azurewebsites.net/">
                     <img src="assets/RedBadge.png" class="card-img-top" alt="RedBadge Badge">
                   </a>
                   <div class="card-body">
-                    <h5 class="card-title">Coming Soon</h5>
-                    <p class="card-text">Loading...</p>
+                    <h5 class="card-title">Golf Track</h5>
+                    <p class="card-text">My final project of the course was to create a Web MVC application. I created an application for Golf that allows users to keep rate and keep track of their scores at their favorite golf courses.</p>
                   </div>
                 </div>
               </div>
@@ -136,25 +135,23 @@
               <a href="https://github.com/nmalcock">
                 <img src="assets/github.svg" alt="GitHub">
               </a>
-              <form class="contactForm">
-                <div class="input-group mb-3 input-group-lg">
-                  <span class="input-group-text" id="basic-addon1">Name</span>
-                  <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
-                </div>
-                <div class="input-group mb-3 input-group-lg">
-                  <span class="input-group-text" id="basic-addon1">Email</span>
-                  <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
-                </div>
-                <div class="input-group input-group-lg">
-                  <span class="input-group-text">Message</span>
-                  <textarea class="form-control" aria-label="Message"></textarea>
-                </div>
-                <button type="button" class="btn btn-primary">Send</button>
-              </form>
+
+            <form class="contactForm" action="https://formspree.io/f/xjvjjyen" method="POST">
+              <div class="input-group mb-3 input-group-lg">
+                <span class="input-group-text" id="basic-addon1">Your Email</span>
+                <input type="email" name="_replyto" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group input-group-lg">
+                <span class="input-group-text">Your Message</span>
+                <textarea name="message" class="form-control" aria-label="Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </form>
               <br />
             </div>
           </div>
         </section>
+
         <!-- Footer -->
         <footer class="text-center">
           <div class="container">Copyright © Nick Alcock 2021</div>
